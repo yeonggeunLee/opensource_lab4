@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // Content-Type 헤더에 UTF-8 인코딩 명시
     printf("Content-Type: text/html; charset=UTF-8\n\n");
-
-    // HTML 콘텐츠 출력
     printf("<!DOCTYPE html>\n");
     printf("<html lang=\"ko\">\n");
     printf("<head>\n");
